@@ -41,14 +41,14 @@ blueprint:
       selector:
         device:
           filter:
-            # source: https://www.zigbee2mqtt.io/devices/TS0042.html#tuya-ts0042
+            # source: https://www.zigbee2mqtt.io/devices/TS0042.html
             - integration: mqtt
-              manufacturer: Tuya
-              model: TS0042
+            # **TBConfirmed** manufacturer: Tuya
+            # **TBConfirmed** model: TS0042
             # For backwards compatability with z2m 1.x. model_id is added to end of model rather than a seperate attribute in z2m 2.x
             - integration: mqtt
-              manufacturer: Tuya
-              model: TS0042
+            # **TBConfirmed** manufacturer: Tuya
+            # **TBConfirmed** model: TS0042
             # source: https://github.com/dresden-elektronik/deconz-rest-plugin/wiki/Supported-Devices
             - integration: zha
             # **TBConfirmed** manufacturer: Tuya
