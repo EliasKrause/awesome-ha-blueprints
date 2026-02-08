@@ -42,9 +42,9 @@ blueprint:
       selector:
         device:
           filter:
-            # - integration: mqtt
-            # - integration: zha
-            # - integration: deconz
+            - integration: mqtt
+            - integration: zha
+            - integration: deconz
           multiple: false
     helper_last_controller_event:
       name: (Required) Helper - Last Controller Event
